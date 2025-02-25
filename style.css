@@ -5,15 +5,12 @@
 
 @font-face {
     font-family: mySecondFont;
-    src: url(Didot_Bold_Italic.ttf);
+    src: url(Caslon-Light.ttf);
 }
 
 @font-face {
     font-family: my4Font;
     src: url(Didot_Medium.ttf)}
-
-
-
 
 
 #bibbase_header a {
