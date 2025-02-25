@@ -120,7 +120,7 @@ h2 {
     color:#7db098;
     margin:20px 0 5px;
     padding-bottom:2px;
-    font-family: MyFirstFont;
+    font-family: myThirdFont;
     font-size: 30px;
 }
 
@@ -136,17 +136,17 @@ ul {
     line-height: 150%;
     padding:0;
     margin:0 0 10px 17px;
-    font-family: myFirstFont;
+    font-family: myThirdFont;
     font-size: 15px;
 }
 
-summary {font-family: myFirstFont;
+summary {font-family: myThirdFont;
     line-height: 120%;
     color:#313C74;
 }
 
 
-p {font-family: myFirstFont;
+p {font-family: myThirdFont;
     line-height: 120%;
     font-size: 15px;}
 
@@ -183,5 +183,5 @@ div.round1 {
 #logo {
     color: #7db098;
     margin-bottom: 20px;
-    font: normal 25px MySecondFont;
+    font: normal 25px myThirdFont;
 }
