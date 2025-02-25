@@ -148,7 +148,7 @@ a:hover {
 
 h1 {
     color:#7db098;
-    margin:0 0 10px;
+    margin:20px 0 10px;
     padding-bottom:10px;
     font-family: MySecondFont;
     font-size: 60px;
@@ -206,6 +206,7 @@ div.round1 {
     font-size: 25px;
     text-align:center;
     font-family: MyThirdFont;
+    margin-bottom: 20px;
 }
 
 #nav a {
