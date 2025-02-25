@@ -1,35 +1,31 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(Caslon-Light.ttf);
-}
-
-@font-face {
-    font-family: mySecondFont;
     src: url(Didot_Bold_Italic.ttf);
 }
 
 @font-face {
-    font-family: myThirdFont;
-    src: url(Didot_Regular.ttf)}
+    font-family: mySecondFont;
+    src: url(Didot_Medium.ttf);
+}
 
 
 #bibbase_header a {
     text-decoration: none;
-    font-family: myFirstFont;
+    font-family: mySecondFont;
 }
 
 #bibbase_header i {
     width: 16px;
     text-align: center;
     margin-right: 5px;
-    font-family: myFirstFont;
+    font-family: mySecondFont;
 }
 
 
 .bibbase_group_body {
     margin-left: 16px;
     line-height: 1.15em;
-    font-family: myFirstFont;
+    font-family: mySecondFont;
 }
 
 
@@ -111,7 +107,7 @@ h1 {
     color:#7db098;
     margin:20px 0 10px;
     padding-bottom:10px;
-    font-family: MySecondFont;
+    font-family: MyFirstFont;
     font-size: 60px;
 
 }
@@ -120,7 +116,7 @@ h2 {
     color:#7db098;
     margin:20px 0 5px;
     padding-bottom:2px;
-    font-family: myThirdFont;
+    font-family: mySecondFont;
     font-size: 30px;
 }
 
@@ -136,17 +132,17 @@ ul {
     line-height: 150%;
     padding:0;
     margin:0 0 10px 17px;
-    font-family: myThirdFont;
+    font-family: mySecondFont;
     font-size: 15px;
 }
 
-summary {font-family: myThirdFont;
+summary {font-family: mySecondFont;
     line-height: 120%;
     color:#313C74;
 }
 
 
-p {font-family: myThirdFont;
+p {font-family: mySecondFont;
     line-height: 120%;
     font-size: 15px;}
 
@@ -183,5 +179,5 @@ div.round1 {
 #logo {
     color: #7db098;
     margin-bottom: 20px;
-    font: normal 25px myThirdFont;
+    font: normal 25px mySecondFont;
 }
