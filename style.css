@@ -111,7 +111,7 @@ h1 {
     color:#7db098;
     margin:20px 0 10px;
     padding-bottom:10px;
-    font-family: MySecondFont;
+    font-family: MyFirstFont;
     font-size: 60px;
 
 }
@@ -125,7 +125,7 @@ h2 {
 }
 
 h3 {
-    font-family: myThirdFont;
+    font-family: MySecondFont;
     padding-bottom:2px;
     margin: 0px;
     font-size: 25px;
