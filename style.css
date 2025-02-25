@@ -29,7 +29,7 @@
 .bibbase_group_body {
     margin-left: 16px;
     line-height: 1.15em;
-    font-family: myThirdFont;
+    font-family: myFirstFont;
 }
 
 
@@ -111,7 +111,7 @@ h1 {
     color:#7db098;
     margin:20px 0 10px;
     padding-bottom:10px;
-    font-family: MyFirstFont;
+    font-family: MySecondFont;
     font-size: 60px;
 
 }
@@ -120,7 +120,7 @@ h2 {
     color:#7db098;
     margin:20px 0 5px;
     padding-bottom:2px;
-    font-family: MySecondFont;
+    font-family: MyFirstFont;
     font-size: 30px;
 }
 
