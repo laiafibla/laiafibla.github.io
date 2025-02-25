@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: mySecondFont;
-    src: url(Caslon-Light.ttf);
+    src: url(Didot_Medium.ttf);
 }
 
 @font-face {
-    font-family: my4Font;
-    src: url(Didot_Medium.ttf)}
+    font-family: myThirdFont;
+    src: url(Didot_Regular.ttf)}
 
 
 #bibbase_header a {
@@ -125,7 +125,7 @@ h2 {
 }
 
 h3 {
-    font-family: my4Font;
+    font-family: myThirdFont;
     padding-bottom:2px;
     margin: 0px;
     font-size: 25px;
