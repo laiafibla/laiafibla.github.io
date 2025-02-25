@@ -101,6 +101,9 @@
     background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
 }
 
+.research-interests {
+    margin-bottom: 40px; /* Adjust the value to control the amount of space */
+}
 
 
 /* Global Styling */
