@@ -1,43 +1,31 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(Caslon-Light.ttf);
+    src: url(Didot_Bold_Italic.ttf);
 }
 
 @font-face {
     font-family: mySecondFont;
-    src: url(Didot_Bold_Italic.ttf);
+    src: url(Caslon-Light.ttf);
 }
-
-@font-face {
-    font-family: myThirdFont;
-    src: url(Didot_Bold_Italic.ttf);
-}
-
-@font-face {
-    font-family: my4Font;
-    src: url(Didot_Medium.ttf)}
-
-
-
 
 
 #bibbase_header a {
     text-decoration: none;
-    font-family: myFirstFont;
+    font-family: mySecondFont;
 }
 
 #bibbase_header i {
     width: 16px;
     text-align: center;
     margin-right: 5px;
-    font-family: myFirstFont;
+    font-family: mySecondFont;
 }
 
 
 .bibbase_group_body {
     margin-left: 16px;
     line-height: 1.15em;
-    font-family: myFirstFont;
+    font-family: mySecondFont;
 }
 
 
@@ -59,28 +47,6 @@
 }
 
 
-.wrapper {
-    border-top: 7px dotted #ABABAB;
-    box-shadow: inset 0 3px 0 0 #000, 0 -3px 0 0 #000;
-    background: #ABABAB;
-}
-
-#main-image {
-    text-align:center;
-}
-
-#left-column {
-    width:800px;
-    padding:0 30px 30px;
-    float:left;
-}
-
-
-#shadow {
-    border: 1px solid #888888;
-    padding: 5px;
-    box-shadow: 2px 3px ;
-}
 
 #main-content {
     margin: auto;
@@ -89,18 +55,9 @@
 
 }
 
-#right-column {
-    width:270px;
-    float:right;
+.research-interests {
+    margin-bottom: 50px; /* Adjust the value to control the amount of space */
 }
-
-.sidebar {
-    width:218px;
-    margin:0 auto;
-    padding:10px 25px;
-    background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
-}
-
 
 
 /* Global Styling */
@@ -148,10 +105,11 @@ a:hover {
 
 h1 {
     color:#7db098;
-    margin:0 0 10px;
+    margin:20px 0 10px;
     padding-bottom:10px;
-    font-family: MySecondFont;
+    font-family: MyFirstFont;
     font-size: 60px;
+    margin-bottom: 30px;
 
 }
 
@@ -159,15 +117,15 @@ h2 {
     color:#7db098;
     margin:20px 0 5px;
     padding-bottom:2px;
-    font-family: MyThirdFont;
-    font-size: 30px;
+    font-family: mySecondFont;
+    font-size: 40px;
 }
 
 h3 {
-    font-family: my4Font;
+    font-family: MySecondFont;
     padding-bottom:2px;
     margin: 0px;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
@@ -175,23 +133,19 @@ ul {
     line-height: 150%;
     padding:0;
     margin:0 0 10px 17px;
-    font-family: myFirstFont;
+    font-family: mySecondFont;
     font-size: 15px;
 }
 
-summary {font-family: myFirstFont;
+summary {font-family: mySecondFont;
     line-height: 120%;
     color:#313C74;
 }
 
 
-p {font-family: myFirstFont;
+p {font-family: mySecondFont;
     line-height: 120%;
     font-size: 15px;}
-
-#p2 {font-family: my4Font;
-    line-height: 120%;
-    font-size: 20px;}
 
 div.round1 {
     border-top: 2px solid #7db098;
@@ -205,7 +159,8 @@ div.round1 {
     padding:10px 20px;
     font-size: 25px;
     text-align:center;
-    font-family: MyThirdFont;
+    font-family: MySecondFont;
+    margin-bottom: 20px;
 }
 
 #nav a {
@@ -225,7 +180,5 @@ div.round1 {
 #logo {
     color: #7db098;
     margin-bottom: 20px;
-    font: normal 25px MySecondFont;
+    font: normal 25px mySecondFont;
 }
-
-#link {font-family: myFirstFont;}
